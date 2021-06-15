@@ -1,0 +1,304 @@
+/*------------------------------- BODY ---------------------------------*/
+
+body {
+    background-image: url(../img/fondo2-edit.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    line-height: 1.0;
+}
+
+
+
+.contenedor {
+    color: white;
+}
+
+/*------------------------------- BODY ---------------------------------*/
+
+/*------------------------------- MENU ---------------------------------*/
+
+.form-control {
+    border: 1px solid #050505;
+}
+
+nav {
+    font-family: 'Mate Sc', serif;
+    font-size: 20px !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-size: 15px;
+    color: black !important;
+}
+
+/*------------------------------- MENU ---------------------------------*/
+
+/*------------------------------- HEADER ---------------------------------*/
+
+header {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 10PX;
+    font-size: 60px;
+    font-family: 'Brygada 1918', serif;
+    text-decoration: underline;
+    display: inline-block;
+    position: relative;
+}
+
+.texto p {
+    font-size: 30px;
+    font-family: 'Mate Sc', serif;
+    text-shadow: 3px 2px 4px black, 4px 3px 5px rgb(0, 0, 0), 5px 4px 6px rgb(0, 0, 0);
+}
+
+image {
+    image-orientation: center;
+}
+
+hr {
+    opacity: 1;
+}
+
+/*------------------------------- HEADER ---------------------------------*/
+
+
+/*------------------------------- MAIN ---------------------------------*/
+/*------------------------------- ORGANIZACION MAIN ---------------------------------*/
+
+.contenedor-main {
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor-aside {
+    flex-direction: column;
+}
+
+#solo {
+    display: flex;
+    width: 100%;
+}
+
+#adentro {
+    width: 100%;
+}
+
+/*------------------------------- ORGANIZACION MAIN ---------------------------------*/
+/*------------------------------- TITULOS MAIN ---------------------------------*/
+
+.contenedor-aside h2 {
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: 'Brygada 1918', serif;
+    text-align: center;
+    text-decoration: underline;
+    flex-direction: column;
+}
+
+/*------------------------------- TITULOS MAIN ---------------------------------*/
+/*------------------------------- PARRAFOS MAIN ---------------------------------*/
+
+.contenedor-article p {
+    margin: 10px 0px;
+    font-size: 30px;
+    font-family: 'Mate Sc', serif;
+    padding: 15px;
+    text-shadow: 3px 2px 4px black, 4px 3px 5px rgb(0, 0, 0), 5px 4px 6px rgb(0, 0, 0);
+}
+
+/*------------------------------- PARRAFOS MAIN ---------------------------------*/
+/*------------------------------- VIDEOS MAIN---------------------------------*/
+
+#video {
+    width: 30%;
+}
+
+#video h3 {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Brygada 1918', serif;
+}
+
+iframe {
+    padding: 0px 8px;
+}
+
+/*------------------------------- VIDEOS MAIN---------------------------------*/
+/*------------------------------- MAIN ---------------------------------*/
+
+/* -------------------------------------------- CARTAS -------------------------------------------- */
+.row {
+    justify-content: center;
+    margin: 0px 0px;
+    align-items: center;
+}
+
+div.card {
+    margin: 0px 3px;
+}
+
+.titulo-cartas {
+
+    font-size: 50px;
+    font-family: 'Brygada 1918', serif;
+    text-align: center;
+    text-shadow: 3px 2px 4px black, 4px 3px 5px rgb(0, 0, 0), 5px 4px 6px rgb(0, 0, 0);
+
+}
+
+.card {
+    padding: 0px 0px;
+    color: #050505;
+    border: 1px solid rgba(0, 0, 0, 0.831);
+}
+
+.card-title {
+    font-size: 30px;
+    font-family: 'Brygada 1918', serif;
+}
+
+.card-text {
+    font-size: 19px;
+    font-family: 'Mate Sc', serif;
+    text-shadow: 0px 0px 0px black;
+}
+
+.boton-cartas {
+    font-size: 20px;
+    text-shadow: 0px 0px 0px rgb(255, 255, 255);
+    font-family: 'Mate Sc', serif;
+}
+
+/* -------------------------------------------- CARTAS -------------------------------------------- */
+
+/*------------------------------- FOOTER ---------------------------------*/
+
+.contenedor-footer {
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+}
+
+.contenedor-footer h2 {
+    font-size: 15px;
+    font-family: 'Mate Sc', serif;
+}
+
+/*------------------------------- FOOTER ---------------------------------*/
+
+/*------------------------------- RESPONSIVE ---------------------------------*/
+/*------------------------------- RESPONSIVE PANTALLAS CHICAS ---------------------------------*/
+
+@media screen and (max-width: 850px) {
+    #solo {
+        flex-wrap: wrap;
+    }
+
+    #video {
+        width: 100%;
+        height: 10%;
+
+    }
+
+    #video h3 {
+        margin: 10px 0px;
+        padding: 0px 60px;
+        padding-top: 0px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    div.card {
+        margin-top: 10px;
+    }
+}
+
+/*------------------------------- RESPONSIVE PANTALLAS CHICAS ---------------------------------*/
+/*------------------------------- RESPONSIVE PANTALLAS GRANDES ---------------------------------*/
+
+@media screen and (min-width:1000px) {
+
+    .contenedor-aside h2 {
+        font-size: 80px;
+    }
+
+    .contenedor-article p {
+        font-size: 50px;
+        padding: 100px;
+    }
+
+    #video {
+        width: 30%;
+        height: 1000px;
+        justify-content: center;
+    }
+
+    #video h3 {
+        margin-top: 200px;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    .texto p {
+        font-size: 50px;
+    }
+
+    .contenedor-nav div {
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+
+    nav div:active {
+        padding: 5px 17px;
+        border-width: 7px;
+    }
+
+    .contenedor-footer {
+        height: 70px;
+    }
+
+    .contenedor-footer h2 {
+        font-size: 16px;
+        padding-top: 45px;
+        margin: 0px;
+    }
+
+    .row {
+        justify-content: center !important;
+    }
+
+    .titulo-cartas {
+        font-size: 80px;
+    }
+
+    .card-title {
+        font-size: 60px;
+
+    }
+
+    .card-text {
+        font-size: 30px;
+
+    }
+
+    .boton-cartas {
+        font-size: 25px;
+    }
+
+    div.card {
+        width: 30rem !important;
+        margin: 0px 50px;
+    }
+
+}
+
+/*------------------------------- RESPONSIVE PANTALLAS GRANDES ---------------------------------*/
+/*------------------------------- RESPONSIVE ---------------------------------*/
